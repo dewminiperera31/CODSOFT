@@ -1,0 +1,333 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+header {
+    background-color: #563d7c;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-family: 'Signature Font', cursive;
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#intro {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+#intro .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.intro-text {
+    max-width: 50%;
+}
+
+.intro-text h2 {
+    font-size: 3rem;
+}
+
+.intro-text p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.cta-buttons .btn {
+    padding: 10px 20px;
+    background-color: #563d7c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.cta-buttons .btn:hover {
+    background-color: #412b5a;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.intro-image img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.intro-image {
+    max-width: 40%;
+}
+
+#achievements {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#achievements h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#achievements p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.achievement-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.achievement-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.achievement-card img {
+    max-width: 80px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.achievement-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.achievement-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+#proficiency {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: left;
+}
+
+#proficiency h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: left;
+}
+
+.skill {
+    margin-bottom: 30px;
+}
+
+.skill h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.progress-bar span {
+    display: block;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #4a90e2;
+    position: relative;
+}
+
+.progress-bar .frontend {
+    width: 80%; /* Adjust the percentage based on skill level */
+    animation: animateBar 2s ease-in-out;
+}
+
+.progress-bar .backend {
+    width: 60%; /* Adjust the percentage based on skill level */
+    animation: animateBar 2s ease-in-out;
+}
+
+.progress-bar .programming {
+    width: 90%; /* Adjust the percentage based on skill level */
+    animation: animateBar 2s ease-in-out;
+}
+
+@keyframes animateBar {
+    from { width: 0; }
+    to { width: inherit; }
+}
+
+#contact {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    color: #666;
+    margin: 10px 0;
+}
+
+#contact .description {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#contact .location {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+#contact .social-icons a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+#contact .social-icons a:hover {
+    color: #4a90e2;
+}
+
+#contact .profile-pic {
+    margin-top: 20px;
+}
+
+#contact .profile-pic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#projects {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#projects p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+/* Fixing class name and structure for project cards container */
+.project-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Styling individual project card */
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+/* Adjusting project image styling */
+.project-card img {
+    max-width: 80px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+
+}
+
+/* Project title styling */
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Project description styling */
+.project-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #563d7c;
+    color: #fff;
+    padding: 10px;
+}
+
+
