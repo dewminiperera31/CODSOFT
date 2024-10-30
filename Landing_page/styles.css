@@ -1,0 +1,184 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header Styling */
+.header {
+    background-color: #ff5e5e;
+    padding: 20px;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.header-buttons .button {
+    background-color: #ffcc5c;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    background:url('images/handsome-bearded-guy-posing-against-white-wall_273609-20597.avif')center/cover no-repeat;
+    
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+}
+
+.hero .button {
+    background-color: #ffcc5c;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Services Section */
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background: linear-gradient(90deg, #ffcc5c, #ff5e5e);
+    color: #fff;
+}
+
+.service-item {
+    text-align: center;
+    width: 30%;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.about-text, .about-image {
+    flex: 1;
+}
+
+.about-text {
+    padding-right: 20px;
+}
+
+.about-text h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about-image img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.about .button{
+    background-color: #ffcc5c;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Our Services Section */
+.our-services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #ff5e5e;
+    color:#fff;
+}
+
+.service-box {
+    text-align: center;
+    width: 30%;
+}
+
+.service-box img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background: linear-gradient(90deg, #ffcc5c, #ff5e5e);
+    color: white;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-item i {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
