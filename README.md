@@ -27,6 +27,8 @@ Project Feedback: Landing Page Design (CodSoft Level 1, Task 2)
 This landing page project, completed as part of the CodSoft Level 1, Task 2, was an insightful experience in building and styling a website from scratch. The task involved creating a professional, visually appealing landing page using fundamental HTML and CSS skills, which tested my knowledge of layout structuring, responsive design, and creative styling.
 
 LEVEL 1 TASK 2
+
+
 Creating a landing page, It is an ideal web development project for beginners.
 
 Throughout the project, I focused on several core areas:
