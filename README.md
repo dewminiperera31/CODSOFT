@@ -43,4 +43,29 @@ Completing this task enhanced my understanding of essential web development prin
 
 ![screencapture-file-C-xampp-htdocs-Landing-page-landingpage-html-2024-10-30-19_12_30](https://github.com/user-attachments/assets/efd74d56-12d0-49df-9f1d-f2c0160e5ec0)
 
+LEVEL 1 TASK 3
+🚀 New Project Alert! Basic Calculator Using HTML, CSS, and JavaScript 🚀
+
+I’m excited to share my latest project: a Basic Calculator built from scratch using HTML, CSS, and JavaScript! This calculator allows users to perform basic arithmetic operations like addition, subtraction, multiplication, and division in a clean, responsive interface. 🧮
+
+Here’s a quick overview of the features:
+
+💻 Technologies Used:
+
+HTML & CSS for structuring and styling
+JavaScript for handling calculations and user interactions
+
+🎨 Design:
+
+A sleek blue-themed interface for a professional, user-friendly look
+Interactive buttons aligned with CSS Grid, styled for a smooth user experience
+
+⚙️ Functionality:
+
+Real-time calculations with responsive feedback
+Error handling and basic validation
+
+![screencapture-file-C-xampp-htdocs-Calculator-Calculator-html-2024-11-01-09_12_16](https://github.com/user-attachments/assets/a0fd31be-25fc-4b1a-9340-bf02877b1533)
+
+
 
